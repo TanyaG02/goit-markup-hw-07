@@ -1,0 +1,45 @@
+/* SPECIALTY */
+
+.specialty {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.specialty__list {
+  display: flex;
+}
+
+.specialty__item {
+  max-width: 270px;
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
+}
+
+.specialty__item-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--main-text-color);
+  margin-bottom: 10px;
+}
+
+.specialty__item-text {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--second-gray-text);
+}
+
+.specialty__item-icon {
+  width: 270px;
+  height: 120px;
+  background: var(--background-color);
+  border-radius: 4px;
+  margin-bottom: var(--typical-margin);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
